@@ -30,7 +30,7 @@ bcrypt: Library for password hashing and salting.
 │   ├── database/         # Database connection
 │   ├── models/           # Mongoose schemas and models
 │   ├── routes/           # API routes (auth and user routes)
-│   └── index.ts            # Entry point of the server
+│   └── index.ts          # Entry point of the server
 ├── .env                  # Environment variables (e.g., JWT_SECRET, DB_URI)
 └── README.md             # Project documentation
 
