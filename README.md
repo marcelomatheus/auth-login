@@ -21,3 +21,17 @@ TypeScript: Strongly typed JavaScript for improving code quality.
 Mongoose: ODM for MongoDB.
 JWT: Authentication via JSON Web Tokens.
 bcrypt: Library for password hashing and salting.
+
+<pre>
+  /login-auth
+├── client/               # React frontend
+├── server/               # Express and Node.js backend
+│   ├── controllers/      # Request controllers for user handling
+│   ├── database/         # Database connection
+│   ├── models/           # Mongoose schemas and models
+│   ├── routes/           # API routes (auth and user routes)
+│   └── index.ts            # Entry point of the server
+├── .env                  # Environment variables (e.g., JWT_SECRET, DB_URI)
+└── README.md             # Project documentation
+
+</pre>
